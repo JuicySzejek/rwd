@@ -1,0 +1,152 @@
+body {}
+
+.logo {
+    background-color:#FF3E8D;
+    padding: 15px 10px 2px 15px;
+}
+
+.all {
+    margin-top: 10vh;
+}
+
+.all h1 {
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.all .ilustration,
+.all .posters,
+.all .topo,
+.all .opakowania {
+    padding: 0 auto;
+}
+
+.all .ilustration,
+.all .posters,
+.all .topo,
+.all .opakowania {
+    text-align: center;
+}
+
+.all img {
+    max-width: 50%;
+}
+
+.all h3 {
+    line-height: 5rem;
+    border-radius: 1rem;
+    border: 2px solid #FF3E8D;
+}
+
+.all h3 a {
+    text-decoration: none;
+    display: block;
+    background-color: #FF3E8D;
+    color: white;
+    transition: 0.3s;
+    font-size: 3rem
+}
+
+.all h3 a:hover {
+    color: black;
+}
+
+.ilustrationA img {
+    margin-top: 5%;
+    max-width: 80%;
+
+}
+
+.ilustrationA {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.postersA img {
+    max-width: 80%;
+
+}
+
+.postersA {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+
+.topography img {
+    max-width: 80%;
+
+}
+
+.topography {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+.opakowaniaA img {
+    max-width: 80%;
+
+}
+
+.opakowaniaA {
+    margin-top: 20vh;
+    margin-bottom: 30vh;
+    text-align: center;
+}
+
+
+
+/* stopka */
+footer {
+
+    padding: 20px;
+
+}
+
+
+footer .contact {
+    text-align: center;
+
+}
+
+footer .contact ul {
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+footer .social {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .icons {
+    display: flex;
+    list-style: none;
+    float: left;
+    text-align: center;
+
+}
+
+
+
+footer .icons i {
+    font-size: 3rem;
+    padding: 20px;
+    color: rgb(245, 122, 228);
+    transition: 0.3s;
+}
+
+footer .icons .facebook i:hover {
+    color: #FF3E8D;
+}
+
+footer .icons .ptak i:hover {
+    color: #FF3E8D;
+}
+
+footer .icons .kosz i:hover {
+    color: #FF3E8D;
+}
